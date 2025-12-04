@@ -27,6 +27,11 @@
   cursor: pointer;
   font-size: 1.5rem;
   font-weight: 700;
+  transition: transform 0.3s ease;
+}
+
+.nav-logo:hover {
+  transform: scale(1.05);
 }
 
 .logo-text {
@@ -80,6 +85,10 @@
 }
 
 @media (max-width: 768px) {
+  .nav-logo {
+    font-size: 1.3rem;
+  }
+
   .nav-toggle {
     display: block;
   }
